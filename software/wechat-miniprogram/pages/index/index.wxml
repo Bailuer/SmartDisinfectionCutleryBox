@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <form bindsubmit="onSubmit" bindreset="onReset" class="login-border">
+    <input name="status" type="text" placeholder="请输入状态(0/1)" class="up"></input>
+    <button form-type="submit">发送</button>
+  </form>
+  <text>{{status}}</text>
+</view>

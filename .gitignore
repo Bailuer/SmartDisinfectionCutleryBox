@@ -1,0 +1,37 @@
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.idea/
+.vscode/
+*.code-workspace
+
+# Arduino / PlatformIO build artifacts
+**/.pio/
+**/build/
+**/.build/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.a
+
+# Secrets / local config
+**/secrets.h
+**/.env
+
+# WeChat DevTools private config
+software/wechat-miniprogram/project.private.config.json
+
+# Large media (avoid accidental commits)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.ppt
+*.pptx
+*.zip
+*.rar
+__MACOSX/
+
